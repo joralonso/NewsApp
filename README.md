@@ -16,8 +16,4 @@ Icono:
 
 Screenshot:
 
-<img src="http://i.imgur.com/qHFt88E.png" style="max-width: 200px">
-
-<img src="http://i.imgur.com/oc6gTWO.png" style="max-width: 200px">
-
-<img src="http://i.imgur.com/DHNyUsX.png" style="max-width: 200px">
+<img src="http://i.imgur.com/qHFt88E.png" width="250px"><img src="http://i.imgur.com/oc6gTWO.png" width="250px" ><img src="http://i.imgur.com/DHNyUsX.png" width="250px">
