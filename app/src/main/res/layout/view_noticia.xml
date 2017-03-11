@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/noticia_imagen"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_action_image" />
+
+    <TextView
+        android:id="@+id/noticia_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/noticia_imagen"
+        android:layout_marginEnd="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="-5dp"
+        android:layout_toRightOf="@+id/noticia_imagen"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noticia_titulo"
+        android:layout_alignLeft="@+id/noticia_titulo"
+        android:layout_alignStart="@+id/noticia_titulo"
+        android:id="@+id/noticia_categoria"
+        android:layout_marginTop="6dp"
+        android:padding="3dp" />
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noticia_subtitulo"
+        android:layout_alignTop="@+id/noticia_categoria"
+        android:layout_toRightOf="@+id/noticia_categoria"
+        android:layout_marginLeft="3dp"
+        android:layout_marginStart="3dp"
+        android:layout_alignRight="@+id/noticia_titulo"
+        android:layout_alignEnd="@+id/noticia_titulo"
+        android:padding="3dp" />
+</RelativeLayout>
